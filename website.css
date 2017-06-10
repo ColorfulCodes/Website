@@ -1,0 +1,57 @@
+/*
+body{
+	background-color: #02acc9;
+}
+
+div {
+    font-size: 14px;
+    font-family: georgia;
+    text-align: center;
+}
+a{
+	color: white;
+}
+
+nav {
+    width: 119px;
+		border-color: black;
+		float: left;
+    padding: 10px 0;
+		background-color: black;
+		 position: fixed Set the navbar to fixed position
+		top: 0; Position the navbar at the top of the page
+		left:0;
+		width: 100%; Full width
+} */
+
+.navbar-inverse {
+    background-color: #000;
+    border-color: #080808;
+}
+
+body {
+  background-color: #02acc9;
+}
+.navbar-brand{
+  font-family: Lucida, Monaco, monospace;
+}
+
+h1 {
+  margin-top:80px;
+  color: white;
+  font-family: serif;
+  font-size: 50px;
+}
+
+h2 {
+  color: white;
+
+}
+.raw{
+  display:inline-block;margin-right:10px;
+  display:inline-block;
+}
+.dropdown-item{
+  background-color: black;
+  border-color: black;
+}
