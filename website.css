@@ -39,19 +39,56 @@ body {
 h1 {
   margin-top:80px;
   color: white;
-  font-family: serif;
-  font-size: 50px;
+  font-family: Lato,serif;
+  font-size: 100px;
 }
 
 h2 {
-  color: white;
+  color: black;
 
 }
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
 .raw{
   display:inline-block;margin-right:10px;
   display:inline-block;
+  color: white;
+  font-family: courier, sans-serif;
+  font-size: 30px;
+}
+
+#team{
+  color: green;
+}
+
+
+.raw1{
+  display:inline-block;margin-right:10px;
+  display:inline-block;
+  font-size: 60px;
+  color: orange;
 }
 .dropdown-item{
   background-color: black;
   border-color: black;
+}
+#navicon{
+  position: right;
+}
+
+
+.footer{
+
+  background-color: black;
+  color: white;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+
 }

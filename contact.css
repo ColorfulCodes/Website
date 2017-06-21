@@ -1,5 +1,43 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+.navbar-inverse {
+    background-color: yellow;
+    border-color: #080808;
+}
+
+body {
+  background-color: #02acc9;
+}
+.navbar-brand{
+  font-family: Lucida, monospace;
+}
+
+h1 {
+  margin-top:80px;
+  color: white;
+  font-family: serif;
+  font-size: 50px;
+}
+
+h2 {
+  color: white;
+
+}
+.raw{
+  display:inline-block;margin-right:10px;
+  display:inline-block;
+}
+.dropdown-item{
+  background-color: black;
+  border-color: black;
+}
+#navicon{
+  position: right;
+}
+
+
+
+
 html{    background-color: black;
   background-size: cover;
   height:100%;
