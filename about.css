@@ -1,0 +1,28 @@
+body{
+  background-color: #660033;
+
+
+}
+
+div{
+  background-color: white;
+  color:black;
+  width: 800px;
+  height: 550px;
+  border-radius: 25px;
+  position:relative;
+  /*width: 25%;*/
+
+}
+
+p{
+  padding-top: 100px;
+  align:center;
+  font-size: 150%;
+  font-family: comic, sans-serif;
+}
+
+h1{
+
+  align: left;
+}
