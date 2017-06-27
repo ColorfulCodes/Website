@@ -1,28 +1,44 @@
 body{
   background-color: #660033;
-
-
 }
 
-div{
+
+.nada{
   background-color: white;
-  color:black;
-  width: 800px;
-  height: 550px;
+  width: 700px;
+  height: 350px;
   border-radius: 25px;
-  position:relative;
+  padding-top: 30px;
+  position: relative;
+  display: block;
+  margin: auto;
+  bottom: -100px;
+}
   /*width: 25%;*/
 
-}
 
 p{
-  padding-top: 100px;
+  padding-top: 10px;
   align:center;
   font-size: 150%;
   font-family: comic, sans-serif;
 }
 
-h1{
 
-  align: left;
+.navbar-inverse {
+    background-color: #000;
+    border-color: #080808;
+}
+
+.navbar-brand{
+  font-family: Lucida, Monaco, monospace;
+}
+
+.dropdown-item{
+  background-color: white;
+  border-color: black;
+}
+
+#navicon{
+  position: right;
 }
