@@ -1,7 +1,7 @@
 
-/* {
+*{
   border: 1px solid red !important;
-}*/
+}
 
 body{
   background-color: #660033;
@@ -39,7 +39,9 @@ i:hover {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
-    width: 30em;
+    max-width: 800px;
+    /* width: 30em; */
+    /* add max with to the site for when it is too wide */
     color: black;
     text-align: center;
     padding: 5px 5px 5px 5px;
@@ -125,7 +127,7 @@ i:hover {
 }
 
 .subSection {
-  height:60%;
+  /* height:60%; */
   background-color: white;
 }
 
