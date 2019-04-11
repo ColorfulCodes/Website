@@ -1,4 +1,4 @@
-/*
+/* 
 *{
   border: 1px solid red !important;
 } */
@@ -123,6 +123,7 @@ i:hover {
   background-color: #660033;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .subSection {
