@@ -1,0 +1,44 @@
+body{
+  background-color: #660033;
+}
+
+
+.nada{
+  background-color: white;
+  width: 700px;
+  height: 350px;
+  border-radius: 25px;
+  padding-top: 30px;
+  position: relative;
+  display: block;
+  margin: auto;
+  bottom: -100px;
+}
+  /*width: 25%;*/
+
+
+p{
+  padding-top: 10px;
+  align:center;
+  font-size: 150%;
+  font-family: comic, sans-serif;
+}
+
+
+.navbar-inverse {
+    background-color: #000;
+    border-color: #080808;
+}
+
+.navbar-brand{
+  font-family: Lucida, Monaco, monospace;
+}
+
+.dropdown-item{
+  background-color: white;
+  border-color: black;
+}
+
+#navicon{
+  position: right;
+}

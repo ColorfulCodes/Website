@@ -1,0 +1,77 @@
+<!Doctype html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://use.fontawesome.com/83a3b91f8e.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href= "contact.css">
+	<title>Contact form</title>
+</head>
+<body>
+		<nav class="topnav navbar navbar-inverse navbar-fixed-top">
+			<a class="navbar-brand" href="#">Jhilene Walker</a>
+	    <div class="container">
+	      <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
+	            <span class="sr-only">Toggle navigation</span>
+	            <span>MENU</span>
+	          </button>
+	      </div>
+	      <div class="collapse navbar-collapse" id="collapsemenu">
+	        <ul id="navlist" class="nav navbar-nav pull-left">
+	          <li><a href="index.html">HOME</a></li>
+	          <li><a href="about.html">ABOUT</a></li>
+						<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="https://colorfulcodesblog.wordpress.com/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          BLOGS
+        </a>
+        <ul class="dropdown-menu" label="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="https://colorfulcodesblog.wordpress.com/">Code Blog</a></li>
+          <li><a class="dropdown-item" href="https://sonderexhibitions.wordpress.com/?ref=spelling">Travel Blog</a></li>
+        </ul>
+      </li>
+						<li><a href="contact.html">CONTACT</a></li>
+					</ul>
+						<ul id="navicon" class="nav navbar-nav pull-right">
+	          <li id="linkedin"><a href= "https://www.linkedin.com/in/jhilene-walker-5086508a/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+						<li><a href= "https://twitter.com/colorfulcodes" class="btn btn-social-icon btn-twitter">
+						<span class="fa fa-twitter "></span></a></li>
+						<li><a href= "https://github.com/ColorfulCodes" class="btn btn-social-icon btn-github">
+  					<span class="fa fa-github"></span></a></li>
+						<li><a href= "https://www.youtube.com/channel/UCCOcO-zIigdIxaT94SZYqzw?view_as=subscriber"class="btn btn-social-icon btn-envelope">
+  					<span class="fa fa-youtube"></span></a></li>
+					</ul>
+
+
+	      </div>
+  </a>
+	    </div>
+	</nav>
+
+
+<div id="form-main" action= "contact.php">
+  <div id="form-div">
+    <form class="form" id="form1">
+
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+
+      <p class="message">
+        <textarea name="message" class="validate[required,length[6,300]] feedback-input" id="message" placeholder="Do not send a message here. There is a bug being fixed."></textarea>
+      </p>
+
+
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
+</body>
