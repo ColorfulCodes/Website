@@ -8,35 +8,35 @@
   <script src="https://use.fontawesome.com/83a3b91f8e.js"></script>
   <title>New Website</title>
   <link href= "main.css" rel="stylesheet">
+  <link href= "intro.css" rel="stylesheet">
   <link rel="stylesheet" href="grid.css" type="text/css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Graduate">
 </head>
 
 <body>
-  <section class="intro">
-    <div class= "container">
-      <div class= "no-results">
-        <div class="vertical-align">
-<p class="par">Hello, welcome to my page. my name is Jhilene Walker, and I am a developer.</p>
+  <header class="intro">
+        <h1 class="intro__header">Hello, welcome to my page. My name is Jhilene Walker, and I am a developer.</h1>
+        <!-- change "id" to a class -->
+          <div class="intro__icons">
+          <ul class="intro__list">
+            <li class="list-icon">
+            <a href= "https://www.youtube.com/channel/UCCOcO-zIigdIxaT94SZYqzw?view_as=subscriber" class="i" target="_blank"><i class="fa fa-youtube"></i></a>
+            </li>
+            <li class="list-icon">
+            <a href= "https://twitter.com/colorfulcodes" class="i" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="list-icon">
+              <a href= "https://github.com/ColorfulCodes" class="i" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
+            <li class="list-icon">
+              <a href= "https://www.linkedin.com/in/jhilene-walker-5086508a/" class="i" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+            </li>
+          </ul>
+    </div>
+    <div class="intro__arrow"></div>
 
-<div id="icons" class="row">
-  <div class="col-4"></div>
-  <div style="display:inline-block" class="col-4">
-  <a href= "https://www.youtube.com/channel/UCCOcO-zIigdIxaT94SZYqzw?view_as=subscriber" class="i" target="_blank"><i class="fa fa-youtube"></i></a>
-  <a href= "https://twitter.com/colorfulcodes" class="i" target="_blank"><i class="fa fa-twitter"></i></a>
-  <a href= "https://github.com/ColorfulCodes" class="i" target="_blank"><i class="fa fa-github"></i></a>
-  <a href= "https://www.linkedin.com/in/jhilene-walker-5086508a/" class="i" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-  </div>
-</div>
-  </div>
-  </div>
-</div>
-
-
-<div class="arrow-down"></div>
-<div class="row"></div>
-</section>
-
+ </header>
+<!-- Make them sections instead of divs. Call whole section "about": about header, about description -->
 <div class="sect sectOne"></div>
 <div class="subSection">
   <p class= "about-title">About Me</p>
@@ -50,13 +50,13 @@
 
 
     </p>
-
+<!-- Call area Projects -->
 </div>
 <div class="sect sectOne"></div>
 <div class="sect">
   <div class="row">
     <div class="col-6"><a href="https://github.com/ColorfulCodes/Markov-Wisdom-Generator" target="_blank">
-      <img src="Images/markovtw.png" alt="Markov project">
+      <img src="Images/markovtw.png" class="sect__image" alt="Markov project">
     </a>
     </div>
     <div class="col-6">
@@ -68,7 +68,7 @@
   </div>
   <div class="row">
     <div class="col-6 data"><a href="https://colorfulcodes.github.io/oasis_orchestra" target="_blank">
-      <img src="Images/oasissite.png" width="600" height="320" alt="Oasis Orchestra project">
+      <img src="Images/oasissite.png" class="sect__image" width="600" height="320" alt="Oasis Orchestra project">
     </a>
     </div>
     <div class="col-6">Built a site for the amazing Oasis Steel Orchestra. They are a group of teens from Jamaica who travel the world
@@ -76,7 +76,7 @@
   </div>
   <div class="row">
     <div class="col-6 data"><a href="https://github.com/ColorfulCodes/Data-Viz" target="_blank">
-      <img src="Images/Days.png" width="600" height="320" alt="Data Viz project">
+      <img src="Images/Days.png" class="sect__image" width="600" height="320" alt="Data Viz project">
     </a>
     </div>
     <div class="col-6">Used sample data of public crime filings in San Francisco to render into a graph.
@@ -85,7 +85,7 @@
   </div>
   <div class="row">
     <div class="col-6 data"><a href="https://github.com/ColorfulCodes/bookshare" target="_blank">
-      <img src="Images/bookappimg.png" width="600" height="320" alt="BookShare project">
+      <img src="Images/bookappimg.png" class="sect__image" width="600" height="320" alt="BookShare project">
     </a>
     </div>
     <div class="col-6">My first social media app. Super exciting. I am using MySQL database to store the user authentication, profile image
@@ -94,14 +94,9 @@
 
 
   <div class="sect sectTwo"></div>
-    <div class="wrapper">
-      <footer> Copyright &copy; 2018, Jhilene.com.
+  <footer> Copyright &copy; 2018, Jhilene.com.
       All rights reserved.</footer>
-
-    </div>
 </div>
-
-
 
 </body>
 </html>
