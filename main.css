@@ -143,9 +143,9 @@ footer {
 
 }
 
-@media (max-width:50rem){
+@media (min-width:50rem){
   /* When you get to min width 50 turn yellow */
-  .col-6{
+  .stack{
     color: yellow;
     width:100%;
   }
