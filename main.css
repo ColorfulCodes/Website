@@ -143,13 +143,6 @@ footer {
 
 }
 
-@media (min-width:50rem){
-  /* When you get to min width 50 turn yellow */
-  .stack{
-    color: yellow;
-    width:100%;
-  }
-}
 
 @media only screen and (min-width: 40em){
 }
