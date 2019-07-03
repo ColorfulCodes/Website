@@ -28,12 +28,12 @@ html, body{
   width: 100%;
 }
 
-.i {
+.list__icon {
   color: white;
   font-size: 1.5em;
 }
 
-i:hover {
+.list__icon:hover {
   background-color: black;
 }
 
@@ -43,7 +43,8 @@ i:hover {
   text-align: center;
   padding-bottom: 5px;
 }
-.about {
+
+.about__content {
 
   margin-left: auto;
   margin-right: auto;
@@ -56,10 +57,10 @@ i:hover {
   padding: 5px 5px 5px 5px;
 
 }
-.about-border {
+/* .about-border {
   border-style: dashed;
   border-radius: 5px;
-}
+} */
 
 
 @-webkit-keyframes arrow {
@@ -80,7 +81,7 @@ i:hover {
   }
 }
 
-.sect {
+.parallax {
   height:70%;
 
   background-size: cover;
@@ -88,16 +89,16 @@ i:hover {
   background-attachment: fixed;
 }
 
-.subSection {
+.about {
 
   background-color: white;
 }
 
-.sectOne {
+.parallax--image {
   background-image: url("Images/me.jpeg");
 }
 
-.sectTwo {
+.parallax--footer {
   background-image: url("Images/me.jpeg");
   height:40%;
   background-size: cover;
