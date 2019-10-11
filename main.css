@@ -3,9 +3,22 @@
 border: 1px solid red !important;
 } */
 body{
-  background-color: #660033;
+
   font-size: 25px;
   font-family: "Graduate";
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 120vh;
+  transform: translateY(-10vh);
+  background: url(Images/me.jpeg) no-repeat center / cover;
+  z-index: -1;
 }
 
 html, body{
@@ -15,12 +28,12 @@ html, body{
   width: 100%;
 }
 
-.i {
+.list__icon {
   color: white;
   font-size: 1.5em;
 }
 
-i:hover {
+.list__icon:hover {
   background-color: black;
 }
 
@@ -30,7 +43,9 @@ i:hover {
   text-align: center;
   padding-bottom: 5px;
 }
-.about {
+
+.about__content {
+
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
@@ -42,10 +57,10 @@ i:hover {
   padding: 5px 5px 5px 5px;
 
 }
-.about-border {
+/* .about-border {
   border-style: dashed;
   border-radius: 5px;
-}
+} */
 
 
 @-webkit-keyframes arrow {
@@ -66,24 +81,24 @@ i:hover {
   }
 }
 
-.sect {
+.parallax {
   height:70%;
-  background-color: #660033;
+
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.subSection {
-  /* height:60%; */
+.about {
+
   background-color: white;
 }
 
-.sectOne {
+.parallax--image {
   background-image: url("Images/me.jpeg");
 }
 
-.sectTwo {
+.parallax--footer {
   background-image: url("Images/me.jpeg");
   height:40%;
   background-size: cover;
@@ -91,14 +106,16 @@ i:hover {
   background-attachment: fixed;
 
 }
-
-.col-6 {
+.color {
+  background-color: #660033;
   padding-top: 10px;
   padding-left: 10px;
   color: white;
   overflow: hidden;
   text-align: center;
+
 }
+
 
 .sect__image {
   max-width:100%;
