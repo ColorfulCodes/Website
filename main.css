@@ -3,12 +3,12 @@
 border: 1px solid red !important;
 } */
 body{
-
   font-size: 25px;
   font-family: "Graduate";
+  margin: 0;
 }
 
-body::before {
+article::before {
   content: '';
   position: fixed;
   display: block;
@@ -38,7 +38,23 @@ html, body{
   background-color: black;
 }
 
+@-webkit-keyframes arrow {
+  0%, 100% {
+    top: 50px;
+  }
+  50% {
+    top: 80px;
+  }
+}
 
+@keyframes arrow {
+  0%, 100% {
+    top: 50px;
+  }
+  50% {
+    top: 80px;
+  }
+}
 
 .about-title{
   text-align: center;
@@ -64,30 +80,31 @@ html, body{
 } */
 
 
-@-webkit-keyframes arrow {
-  0%, 100% {
-    top: 50px;
-  }
-  50% {
-    top: 80px;
-  }
-}
 
-@keyframes arrow {
-  0%, 100% {
-    top: 50px;
-  }
-  50% {
-    top: 80px;
-  }
-}
 
-.parallax {
+/* .parallax {
   height:70%;
 
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+} */
+
+/* article::before {
+  content: '';
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 120vh;
+  transform: translateY(-10vh);
+  background: url("Images/me.jpeg");
+  z-index: -1;
+} */
+
+section + section {
+  margin-top: 40vh;
 }
 
 .about {
@@ -95,9 +112,9 @@ html, body{
   background-color: white;
 }
 
-.parallax--image {
+/* .parallax--image {
   background-image: url("Images/me.jpeg");
-}
+} */
 
 .parallax--footer {
   background-image: url("Images/me.jpeg");
